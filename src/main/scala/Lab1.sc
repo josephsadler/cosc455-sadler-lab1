@@ -8,3 +8,7 @@
 
   num = 6
 
+def FizzBuzz(n: Int): Unit = {
+  1 to n foreach {i =>
+    println(i)}
+}
